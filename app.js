@@ -1,5 +1,4 @@
-/** 
- * Thai Insurance Survey Application JavaScript 
+/** * Thai Insurance Survey Application JavaScript 
  * แอปพลิเคชันแบบสอบถามประกันภัยภาษาไทย 
  */
 
@@ -176,7 +175,8 @@ function validateSection(sectionNumber) {
       } 
     } 
   }); 
-  // ตรวจสอบ textarea และ input อื่นๆ requiredInputs.forEach(input => { 
+  // ตรวจสอบ textarea และ input อื่นๆ 
+  requiredInputs.forEach(input => { 
     if (input.type !== 'radio' && input.type !== 'checkbox') { 
       if (!input.value.trim()) { 
         isValid = false; 
